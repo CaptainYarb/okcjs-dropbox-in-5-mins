@@ -1,0 +1,124 @@
+.coverSlide.slide{
+	background-color: #007EE5;
+}
+.coverSlide .fa-dropbox{
+	font-size: 184px;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.25em;
+    color: #fff;
+}
+.coverSlide h2{
+    font-family: "Open Sans";
+    font-weight: lighter;
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.coverSlide h3{
+    font-family: "Open Sans";
+    font-weight: lighter;
+    font-size: 34px;
+    line-height: 1.1em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.coverSlide.slide h2 small,
+.coverSlide.slide h3 small{
+	font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 26px;
+    border-bottom: 2px solid #fff;
+    bottom: 7px;
+    position: relative;
+    color: #fff;
+}
+.coverSlide.slide h3 small{
+	left: 0px;
+    font-size: 18px;
+}
+.coverSlide p{
+    color: #FFF;
+    font-size: 20px;
+}
+.coverSlide p a {
+	color:#FFF;
+}
+.slide h2 small{
+	font-size: 18px;
+    color: #9A9A9A;
+    font-weight: bold;
+}
+.slide .noline{
+	line-height: 1em;
+	margin-bottom: 0;
+}
+.slide .halfline{
+	line-height: 1.5em;
+	margin-bottom: 0;
+}
+.slide div img.original{
+	width: inherit !important;
+    height: inherit !important;
+}
+
+body > header.caption{
+	color: #fff;
+}
+body > header.caption h1{
+	font-family: "Open Sans";
+	font-weight: lighter;
+}
+body > header.caption p{
+	opacity: 0.75;
+}
+body > header.caption h1 small{
+	font-weight: bold;
+    font-size: 18px;
+    bottom: 5px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+body > header.caption:after{
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	height: 200px;
+	background-color: #007EE5;
+	z-index: -1;
+}
+.slide code, .slide h2.console{
+	font-family: "Consolas";
+}
+.slide pre code{
+	display: block;
+	white-space: 'normal';
+	font-size: 17px;
+}
+.slide i.fa{
+	font-style: normal !important;
+}
+.fb_iframe_widget{
+	line-height: 0;
+}
+.split{
+	clear: both;
+	overflow: hidden;
+}
+.leftSplit{
+	float: left;
+	width: 50%;
+}
+.rightSplit{
+	float: right;
+	width: 50%;
+}
+#results{
+	font-size: 12px;
+}
+.whoami a{
+	text-decoration: none;
+	background: none !important;
+}
